@@ -5,7 +5,7 @@ public class PaddleMovement : MonoBehaviour
     [SerializeField] Rigidbody rb;
     float vert;
     private float speed = 9.0f;
-    private bool isLeft;
+    [SerializeField] bool isLeft = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\c0345094\\Class3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14D77C53-F448-4D55-0E7E-66737617A5B2}|Assembly-CSharp.csproj|c:\\users\\c0345094\\class3\\assets\\scripts\\paddlemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D77C53-F448-4D55-0E7E-66737617A5B2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paddlemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D77C53-F448-4D55-0E7E-66737617A5B2}|Assembly-CSharp.csproj|c:\\users\\c0345094\\class3\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D77C53-F448-4D55-0E7E-66737617A5B2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaddleMovement.cs",
+              "DocumentMoniker": "C:\\Users\\c0345094\\Class3\\Assets\\Scripts\\PaddleMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PaddleMovement.cs",
+              "ToolTip": "C:\\Users\\c0345094\\Class3\\Assets\\Scripts\\PaddleMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PaddleMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T19:28:26.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\c0345094\\Class3\\Assets\\Scripts\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
+              "ToolTip": "C:\\Users\\c0345094\\Class3\\Assets\\Scripts\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T19:28:20.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
