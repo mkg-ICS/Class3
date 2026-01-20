@@ -3,9 +3,11 @@ using UnityEngine;
 public class PaddleMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
-    float vert;
-    private float speed = 9.0f;
     [SerializeField] bool isLeft = false;
+    [SerializeField] private float minY = -2.5f;
+    [SerializeField] private float maxY = 4.5f;
+    private float speed = 9.0f;
+    private float vertInput;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,20 +17,15 @@ public class PaddleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        vert = Input.GetAxis("Vertical");
-        if (isLeft)
-        {
-            vert = Input.GetAxis("VerticalP1");
-        }
-        else
-        {
-            vert = Input.GetAxis("VerticalP2");
-        }
+        var axis = isLeft ? "VerticalP1" : "VerticalP2";
+        vertInput = Input.GetAxis(axis);
     }
 
-            private void FixedUpdate()
-            {
-                Vector3 movement = Vector3.up * vert * Time.deltaTime * speed;
-                rb.MovePosition(transform.position + movement);
-            }
+    private void FixedUpdate()
+    {
+        Vector3 movement = Vector3.up * vertInput * Time.deltaTime * speed;
+        Vector3 newPos = transform.position + movement;
+        newPos.y = Mathf.Clamp(newPos.y, minY, maxY);
+        rb.MovePosition(newPos);
+    }
 }
