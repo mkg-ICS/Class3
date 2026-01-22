@@ -1,9 +1,14 @@
-using System.IO;
+using TMPro;
 using UnityEngine;
 
-public class Rotor : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
-    private float rotSpeed = 2000.0f;
+    [SerializeField] TextMeshProUGUI score;
+
+    public void UpdateScore(int scoreP1, int scoreP2)
+    {
+        score.text = scoreP1 + " : " + scoreP2;
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +18,6 @@ public class Rotor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 rot = Vector3.up * Time.deltaTime * rotSpeed;
-        transform.Rotate(rot);
+        
     }
 }
